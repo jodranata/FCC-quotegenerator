@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  transition: all 0.3s ease-in;
+}
+
+.app-container {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-box {
+  width: 700px;
+  height: 350px;
+  background-color: rgb(27, 27, 27);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s ease-in;
+  position: absolute;
+  top: 10%;
+}
+
+.quote-text {
+  padding: 10px 20px;
+  position: relative;
+}
+
+.quote-text #text {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.quote-text #text::before {
+  content: open-quote;
+}
+.quote-text #text::after {
+  content: close-quote;
+}
+
+.quote-text #author {
+  text-align: right;
+  font-weight: 700;
+}
+
+.button-action {
+  padding: 15px;
+  position: relative;
+}
+
+.button-action #new-quote {
+  margin: 0 25px;
+}
+
+.button-action #tweet-quote {
+  position: absolute;
+  left: 35px;
+  bottom: 35px;
+  font-size: 1.8rem;
+  border: 2px solid #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in;
+}
+
+.button-action #tweet-quote:hover,
+.button-action #tweet-quote:focus {
+  background-color: rgba(255, 255, 255, 0.877);
+}
+
+.button-action #new-quote {
+  position: absolute;
+  right: 35px;
+  bottom: 37px;
+  border: 2px solid white;
+  padding: 15px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in;
+  background-color: transparent;
+  font-size: 1.2rem;
+}
+
+.button-action #new-quote:hover {
+  background-color: rgba(255, 255, 255, 0.877);
+}
+
+.footer {
+  width: 100%;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding: 10px 0;
+  background-color: rgba(22, 22, 22, 0.8);
+}
+
+.footer p {
+  margin: 5px auto;
+}
+
+.curtain {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 20px;
+}
