@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/FCC-quotegenerator/static/css/main.a91af053.chunk.css",
+    "main.js": "/FCC-quotegenerator/static/js/main.0c9c440f.chunk.js",
+    "main.js.map": "/FCC-quotegenerator/static/js/main.0c9c440f.chunk.js.map",
+    "runtime-main.js": "/FCC-quotegenerator/static/js/runtime-main.7ac543a3.js",
+    "runtime-main.js.map": "/FCC-quotegenerator/static/js/runtime-main.7ac543a3.js.map",
+    "static/js/2.6305feb7.chunk.js": "/FCC-quotegenerator/static/js/2.6305feb7.chunk.js",
+    "static/js/2.6305feb7.chunk.js.map": "/FCC-quotegenerator/static/js/2.6305feb7.chunk.js.map",
+    "index.html": "/FCC-quotegenerator/index.html",
+    "precache-manifest.589770d2fc1ba99dc3db3c6dfb3bb5cb.js": "/FCC-quotegenerator/precache-manifest.589770d2fc1ba99dc3db3c6dfb3bb5cb.js",
+    "service-worker.js": "/FCC-quotegenerator/service-worker.js",
+    "static/css/main.a91af053.chunk.css.map": "/FCC-quotegenerator/static/css/main.a91af053.chunk.css.map",
+    "static/js/2.6305feb7.chunk.js.LICENSE": "/FCC-quotegenerator/static/js/2.6305feb7.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ac543a3.js",
+    "static/js/2.6305feb7.chunk.js",
+    "static/css/main.a91af053.chunk.css",
+    "static/js/main.0c9c440f.chunk.js"
+  ]
+}
